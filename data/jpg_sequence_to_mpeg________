@@ -1,0 +1,1 @@
+mencoder mf://*.jpg -mf w=1920:h=1020:fps=25:type=jpg -o output.mp4 -oac copy -ovc lavc -lavcopts vcodec=mpeg1video -of mpeg 

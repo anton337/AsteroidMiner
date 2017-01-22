@@ -1,0 +1,2 @@
+mencoder mf://*.tga -mf w=800:h=600:fps=25:type=tga -ovc copy -oac copy -o output.avi
+

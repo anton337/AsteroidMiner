@@ -1,0 +1,12 @@
+#!/bin/bash
+ N=$#;
+ echo "Converting $N files !"
+ for ((i=0; i<=(N-1); i++))
+ do
+ echo "converting" $1
+ filename=${1%.*}
+ convert "$1" $filename.jpg
+ shift 1
+ done
+
+

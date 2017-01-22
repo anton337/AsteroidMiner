@@ -1,0 +1,2 @@
+mencoder mf://*.jpg -mf w=800:h=600:fps=25:type=jpg -ovc copy -oac copy -o output.avi
+
